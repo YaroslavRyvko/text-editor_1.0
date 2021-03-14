@@ -1,0 +1,310 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.top-box,
+.bottom-box {
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    width: 800px;
+    min-height: 350px;
+    background-color: grey;
+}
+
+.edit-button,
+.style-button,
+.add-button,
+.save-button {
+    outline: none;
+    border: none;
+    width: 60px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.edit-button {
+    background-color: rgb(255, 208, 0);
+}
+
+.edit-button:hover {
+    background-color: rgb(223, 184, 10);
+    transition: all 0.2s;
+}
+
+.edit-button:focus {
+    box-shadow: 0 0 3px 2px rgb(219, 135, 25);
+}
+
+.style-button {
+    background-color: rgb(0, 153, 255);
+}
+
+.style-button:hover {
+    background-color: rgb(15, 114, 180);
+    transition: all 0.2s;
+}
+
+.style-button:focus {
+    box-shadow: 0 0 3px 2px rgb(15, 114, 180);
+}
+
+.add-button {
+    background-color: rgb(255, 17, 0);
+}
+
+.add-button:hover {
+    background-color: rgb(180, 24, 13);
+    transition: all 0.2s;
+}
+
+.add-button:focus {
+    box-shadow: 0 0 3px 2px rgb(255, 17, 0);
+}
+
+.save-button {
+    background-color: rgb(28, 121, 5);
+}
+
+.save-button:hover {
+    background-color: rgb(28, 87, 13);
+    transition: all 0.2s;
+}
+
+.save-button:focus {
+    box-shadow: 0 0 3px 2px rgb(25, 110, 4);
+}
+
+.textarea {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    width: 728px;
+    height: 220px;
+}
+
+.buttons2 {
+    margin-top: 10px;
+}
+
+.form-style {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-style {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.color-buttons {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(80, 80, 80);
+}
+
+.color-buttons:hover {
+    background-color: rgb(39, 39, 39);
+    transition: all 0.2s;
+}
+
+.color-buttons:focus {
+    box-shadow: 0 0 3px 2px rgb(56, 56, 56);
+}
+
+.text-colors-hide {
+    display: none;
+}
+
+.background-colors-hide {
+    display: none;
+}
+
+.text-colors {
+    margin-left: 135px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 210px;
+}
+
+.background-colors {
+    margin-left: 135px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 210px;
+}
+
+.shadow {
+    width: 280px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.orange {
+    background-color: rgb(189, 128, 15);
+    width: 70px;
+    height: 70px;
+}
+
+.white {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+}
+
+.green {
+    background-color: rgb(11, 105, 11);
+    width: 70px;
+    height: 70px;
+}
+
+.pink {
+    background-color: pink;
+    width: 70px;
+    height: 70px;
+}
+
+.black {
+    background-color: rgb(19, 19, 19);
+    width: 70px;
+    height: 70px;
+}
+
+.red {
+    background-color: rgb(187, 22, 22);
+    width: 70px;
+    height: 70px;
+
+}
+
+.blue {
+    background-color: rgb(12, 12, 199);
+    width: 70px;
+    height: 70px;
+}
+
+.purple {
+    background-color: rgb(105, 12, 105);
+    width: 70px;
+    height: 70px;
+}
+
+.yellow {
+    background-color: rgb(209, 209, 15);
+    width: 70px;
+    height: 70px;
+}
+
+.add-box {
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    width: 800px;
+    min-height: 350px;
+    background-color: grey;
+    display: none;
+}
+
+.table-settings,
+.list-settings {
+    display: none;
+}
+
+.span-style {
+    box-sizing: border-box;
+    display: inline-block;
+    padding-top: 6px;
+    width: 100px;
+    height: 30px;
+}
+
+.line {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-text-style {
+    box-sizing: border-box;
+    margin-left: 30px;
+    width: 600px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.table-input-style {
+    box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.create-table,
+.create-list {
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: rgb(15, 122, 15);
+    color: white;
+    margin-top: 15px;
+    outline: none;
+}
+
+.create-table:hover {
+    background-color: rgb(28, 87, 13);
+    transition: all 0.2s;
+}
+
+.create-table:focus {
+    box-shadow: 0 0 3px 2px rgb(25, 110, 4);
+}
+
+.create-list:hover {
+    background-color: rgb(28, 87, 13);
+    transition: all 0.2s;
+}
+
+.create-list:focus {
+    box-shadow: 0 0 3px 2px rgb(25, 110, 4);
+}
+
+input.input-text-style:focus {
+    outline: none;
+    box-shadow: 0 0 3px 2px rgb(23, 143, 199);
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 3px 2px rgb(23, 143, 199);
+}
+
+.table-input-style:focus {
+    outline: none;
+    box-shadow: 0 0 3px 2px rgb(23, 143, 199);
+}
+
+.textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px 2px rgb(23, 143, 199);
+}
